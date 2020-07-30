@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SmartWake</string>
+    <string name="youwillwakeup">Te levantarás a las&#8230;</string>
+    <string name="weatherTitle">Para hoy se preveen</string>
+    <string name="clockTitle">Reloj digital</string>
+    
+    <string name="marcame">Meteorología</string>
+    <string name="opc1_meteo">5 minutos</string>
+    <string name="opc2_meteo">10 minutos</string>
+    <string name="opc3_meteo">15 minutos</string>
+    <string name="marcame2">Tráfico</string>
+    <string name="marcame3">Reducir brillo al iniciar app</string>
+    <string name="marcame4">Otras opciones</string>
+    
+</resources>

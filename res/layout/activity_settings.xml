@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_header_selector"
+    android:orientation="vertical" >
+    
+    <ImageView
+    	android:id="@+id/weather"
+        android:layout_width="90dp"
+        android:layout_height="90dp"  
+        android:layout_gravity="center"
+        android:src="@drawable/tools" 
+        android:layout_marginTop="50sp"/>
+
+    <CheckBox 
+        android:id="@+id/ChkMarcame"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_marginTop="10sp"
+    	android:text="@string/marcame3"
+    	android:checked="false" 
+    	android:onClick="onCheckBoxClicked"/>
+
+
+<CheckBox 
+        android:id="@+id/ChkMarcame2"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_marginTop="10sp"
+    	android:text="@string/marcame4"
+    	android:checked="false"
+    	android:onClick="onCheckBoxClicked" />
+
+</LinearLayout>
